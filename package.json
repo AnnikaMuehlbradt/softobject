@@ -1,0 +1,17 @@
+{
+  "name": "itsannika",
+  "version": "1.0.0",
+  "description": "A website to feature my research.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Annika Muehlbradt",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "pug": "^2.0.4"
+  }
+}

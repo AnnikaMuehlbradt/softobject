@@ -1,0 +1,9 @@
+//- layout.pug
+include partials/header.pug
+body
+  .container-fluid.mt-5.ml-5
+    .row
+      .col-2(style="max-width: 400px;")
+        include partials/sidebar.pug
+      .col-10.main
+        block content
