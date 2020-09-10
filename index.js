@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-//const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 const router = require('./routes/index');
 
@@ -38,13 +38,9 @@ app.use((err, req, res, next) => {
     res.status(err.status || 500).send("Something broke!");
 });
 
-/*
+
 const PORT = process.env.PORT || 8080;
 
 const server = app.listen(PORT, () => {
     console.log(`Express running → PORT ${server.address().port}`);
 });
-*/
-
-app.listen(3000);
-console.log('3000 is the magic port');
