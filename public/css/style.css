@@ -97,6 +97,13 @@ p, ul, li {
   margin-top: 7rem!important;
 }
 
+.embed-responsive-9by16 {
+  padding-bottom: 68%;
+  width: 38.5%;
+  margin: 0 auto;
+  display: block;
+}
+
 /* --------------------------- SIDEBAR ---------------------- */
 
 
