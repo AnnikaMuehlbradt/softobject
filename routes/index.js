@@ -30,4 +30,10 @@ router.get('/weekly2', function(req, res, next) {
   });
 });
 
+router.get('/weekly3', function(req, res, next) {
+  res.render('weekly3', {
+    title: "Filament Exploration"
+  });
+});
+
 module.exports = router;
