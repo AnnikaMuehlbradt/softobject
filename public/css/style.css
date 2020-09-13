@@ -94,6 +94,10 @@ p, ul, li {
 }
 
 .mt-6 {
+  margin-top: 3.5rem!important;
+}
+
+.mt-7 {
   margin-top: 7rem!important;
 }
 
