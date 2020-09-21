@@ -36,4 +36,10 @@ router.get('/weekly3', function(req, res, next) {
   });
 });
 
+router.get('/weekly4', function(req, res, next) {
+  res.render('weekly4', {
+    title: "Ply/Braid Exploration"
+  });
+});
+
 module.exports = router;

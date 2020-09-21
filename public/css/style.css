@@ -108,6 +108,12 @@ p, ul, li {
   display: block;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* --------------------------- SIDEBAR ---------------------- */
 
 
