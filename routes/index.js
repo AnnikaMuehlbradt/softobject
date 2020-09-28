@@ -42,4 +42,10 @@ router.get('/weekly4', function(req, res, next) {
   });
 });
 
+router.get('/weekly5', function(req, res, next) {
+  res.render('weekly5', {
+    title: "Knit Exploration"
+  });
+});
+
 module.exports = router;
