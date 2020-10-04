@@ -48,4 +48,10 @@ router.get('/weekly5', function(req, res, next) {
   });
 });
 
+router.get('/weekly6', function(req, res, next) {
+  res.render('weekly6', {
+    title: "Weave Exploration"
+  });
+});
+
 module.exports = router;
