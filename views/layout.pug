@@ -1,9 +1,9 @@
 //- layout.pug
 include partials/header.pug
 body
-  .container-fluid.mt-5.ml-2
+  .container-fluid.mt-5.mx-5
     .row
-      .col-2(style="max-width: 400px;")
+      .col-2.sidebar(style="max-width: 400px;")
         include partials/sidebar.pug
-      .col-9.ml-2.main
+      .col-8.ml-7.mt-6.main
         block content

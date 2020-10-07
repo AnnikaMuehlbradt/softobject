@@ -7,14 +7,14 @@ const router = express.Router();
 //router.get('/blog/search', post_controller.posts_search)
 
 router.get('/', function(req, res, next) {
-  res.render('posts', {
-    title: "Weekly Posts"
+  res.render('work', {
+    title: "Weekly Experimentation"
   });
 });
 
-router.get('/posts', function(req, res, next) {
-    res.render('posts', {
-      title: "Weekly Posts"
+router.get('/work', function(req, res, next) {
+    res.render('work', {
+      title: "Weekly Experimentation"
     });
 });
 
@@ -51,6 +51,12 @@ router.get('/weekly5', function(req, res, next) {
 router.get('/weekly6', function(req, res, next) {
   res.render('weekly6', {
     title: "Weave Exploration"
+  });
+});
+
+router.get('/weekly7', function(req, res, next) {
+  res.render('weekly7', {
+    title: "Tasty Leather"
   });
 });
 

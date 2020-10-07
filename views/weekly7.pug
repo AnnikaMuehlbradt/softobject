@@ -2,27 +2,39 @@
 extends layout.pug
 block content
   .row
-    .col-7.mt-5
+    .col-8.mt-5
       .row
-        h1 Weekly 7: Tasty Leather
+        h2 Weekly 7: Tasty Leather
       .row.mt-5
         p
           b Vision.  
           | I want to make a textile out of an unconventional material; not out of fibers or filaments.
           | I am inspired by how paper is made.
           | In particular, that wood pulp can be pressed, formed, and dried into strong, flexible sheets.
-          | I wonder what else can be turned into thin sheet in this way.
+          | I wonder what else can be turned into a thin sheet in this way.
           | The first thing that comes to mind are apples.
           | In fact, I remember eating fruit leather as a child.
           | Could fruit leather be a textile? Can I make it conductive somehow?
       .row.mt-4
         p
           b Process 1.  
-          | Usually I dive right into experimentation, but this time, I think it would be wise to do some research.
-          | 
-          | It is the 
-          a(href="http://www.ncbe.reading.ac.uk/MATERIALS/Enzymes/PDF/JAM01.pdf" aria-label="A document on fruit juice production.") pectin in the apple  
-          | that creates the fruit leather as pectin is insoluable. Google what makes fruit leather leather.
+          | I did some research on the subject matter and it turns out that there are a few companies working creating fruit leather as a textile.
+          | One such company is  
+          a(href="https://fruitleather.nl/" aria-label="Home page for Fruitleather Rotterdam") Fruitleather Rotterdam  
+          | which makes leather out of fruit waste (fruit wasted at supermarkets).
+          | The leather is treated with some natural (and secret) coating to make it waterproof.
+          | Other companies have used epoxy or resin to achieve the same end.
+          | Regardless of the treatment method, fruit leather seems to be strong enough to be used as a textile in clothing, hand bags, and shoes.
+          | Even untreated, edible  
+          a(href="https://nchfp.uga.edu/how/dry/fruit_leathers.html" aria-label="How to dry fruit leather by the National Center for Home Food Preservation.") fruit leather can last up to 1 year.  
+      .row.mt-2
+        img.img-fluid(src="media/weekly7/collage-1.png" style="max-width: 100%; height: auto;" alt=".")
+      .row.mt-4
+        p
+          | Making edible fruit leather is a well documented science as described
+          a(href="https://www.hindawi.com/journals/ijfs/2014/139890/" aria-label="Methods of preparation for fruit leather in the International Journal of Food Science") here.
+          | Making textile fruit leather, however, has not been documented in detail.
+          | In fact, I cannot find any recipes, tips, or tricks anywhere so I'll have to experiment on my own.
       .row.mt-4
         p
           b Process 2.  
@@ -32,7 +44,7 @@ block content
           | shows a process of peeling, chunking, and cooking the apples down (a lot). Then, straining the pulp, pouring it onto a sheet lined with parchement paper, and baking it on low temperature in the oven.
           | The publisher of the video suggests using a "cooking apple because it needs to pulp down."
           | While in 
-          a(href="https://www.youtube.com/watch?v=InY_pFjRzHI&feature=youtu.be" aria-label="") this video,  
+          a(href="https://www.youtube.com/watch?v=InY_pFjRzHI&feature=youtu.be" aria-label="Another demonstration of how to make fruit leather from apples.") this video,  
           | the person chunks and cooks the apples down. Then, blends the cooked apples into a puree using a blender, pours the pulp onto a sheet lined with silcone baking mat, and bakes it on low temperature in the oven.
           br
           br
@@ -45,25 +57,22 @@ block content
           | I did not add water or lemon juice.
           | I did not want to dilute the mixture and I was worried that the lemon juice would break down the celulose in the apple skins therefore weakening the structure.
       .row.mt-2
-        img.img-fluid(src="media/weekly7/collage-1.png" style="max-width: 100%; height: auto;" alt="Several images of a cardboard loom showing the progress of weaving wool yarn with the under-over method.")
+        img.img-fluid(src="media/weekly7/collage-2.png" style="max-width: 100%; height: auto;" alt=".")
       .row.mt-4
         p
           | Next, I blended the mixture and added some cinnamon and nutmeg; why shouldn't my textile also taste delicious?
           | Then, I poured 1/3 of the mixture onto a baking sheet lined with parchment paper and spread it into a thin(ish) layer using a flat cooking spoon.
           | Too thin and it might be brittle, too thick and it won't be as flexible.
-          br
-          br
+      .row.mt-2
+        img.img-fluid(src="media/weekly7/collage-3.png" style="max-width: 100%; height: auto;" alt=".")
+      .row.mt-4
+        p
           | I baked the pulp for X minutes at 170 degrees Fahrenheit (the lowest oven setting as suggested by both videos)
       .row.mt-2
-        img.img-fluid(src="media/weekly7/collage-2.png" style="max-width: 100%; height: auto;" alt="Several images of a cardboard loom woven with green yarn and multicolored jute, copper wire yarn. The images show the progress of creating 3 jute, copper wire squares with green yarn in between.")
+        img.img-fluid(src="media/weekly7/apple-leather-baking.jpg" style="max-width: 100%; height: auto;" alt=".")
       .row.mt-4
         p
-          | The resulting fruit leather ...
-      .row.mt-2
-        img.img-fluid(src="media/weekly7/collage-3.png" style="max-width: 100%; height: auto;" alt="Several images of a cardboard loom woven with green yarn and multicolored jute, copper wire yarn. There are 3 jute, copper wire squares with green yarn in between each square and surrounding the squares. The squares are arranged in a 1-2 hopscotch pattern.")
-      .row.mt-4
-        p
-          | Time for some experimentation. What can I add to make the fruit leather stronger?
+          | Time for some experimentation. What can I add to make the fruit leather stronger or more flexible?
           | Most commerical fruit leathers contain malto-dextrin,
           a(href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4940893/" aria-label="A review of malto-dextrin") a modified food starch derived from corn, rice, wheat, and other botanical sources.
           | This supposedly makes the leather
@@ -71,35 +80,42 @@ block content
           | In other foods, it is often used as an inexpensive additive for thickening.
           br
           br
-          | I don't have malto-dextrin but I do have corn starch. The two are probably not comparable ... ¯\_(ツ)_/¯.
-          | So I added 2 TSPs of corn starch to 1/3 of the remaining mixture and blended it some more.
+          | I don't have malto-dextrin but I do have corn starch (Rumford Non-Gmo). The two are probably not comparable ... ¯\_(ツ)_/¯
+          br
+          br
+          | I added 2 TSPs of corn starch to 1/3 of the remaining mixture and blended it some more.
           | As corn starch requires heat to thicken, I boiled the mixture in a small saucepan for a couple of minutes.
           | Next, I poured it onto a baking sheet lined with parchment paper and spread it out as I did before.
           | The corn starch, apple mixture is definitely more viscous than the apple mixture. 
-          | Last, I popped it in the oven to dry for X minutes along with the previous mixture.
+          | Last, I popped it in the oven to dry for X minutes alongside with the previous mixture.
       .row.mt-2
-        img.img-fluid(src="media/weekly7/collage-4.png" style="max-width: 100%; height: auto;" alt="A GIF demonstrating how the hopscotch board is to be used. A person's fingers jump from square to square.")
+        img.img-fluid(src="media/weekly7/collage-5.png" style="max-width: 100%; height: auto;" alt=".")
       .row.mt-4
         p
           | The results are ...
       .row.mt-2
-        img.img-fluid(src="media/weekly7/collage-5.png" style="max-width: 100%; height: auto;" alt="A GIF demonstrating how the hopscotch board is to be used. A person's fingers jump from square to square.")
+        img.img-fluid(src="media/weekly7/collage-6.png" style="max-width: 100%; height: auto;" alt=".")
       .row.mt-6
         p
           b Process 3.  
           | How can I make the apple leather conductive?
           | I could mix in conductive roving, yarn, or wire but maybe there is an edible alternative?
           | A quick Google search for "conductive food" revealed that a lot of 
-          a(href="https://www.sciencebuddies.org/science-fair-projects/ask-an-expert/viewtopic.php?t=11269" aria-label="A forum discussing the conductivity of fruits.") fruit and vegetable juices are conductive. 
-          | Fruits and vegetables contain large amounts of water and, therefore, can conduct electricity.
-          | Citric acid and ascorbic acid can further increase conductivity as acids make ions.
-          | So, as a citrus fruit, an apple makes for an excellent conductors. 
-          a(href="https://www.youtube.com/watch?v=8YvYWLb0KGU" aria-label="A demonstration of how to turn an apple into a battery.") Apples can even be used as a battery.  
-          | In theory, the apple fruit leather should be conductive.
+          a(href="https://www.sciencebuddies.org/science-fair-projects/ask-an-expert/viewtopic.php?t=11269" aria-label="A forum discussing the conductivity of fruits.") fruit and vegetable juices are ion conductive. 
+          | That is, fruits and vegetables contain citric and ascorbic acid which make ions.
+          | To produce an electrical current, all that is needed is to add an electrode (a piece of metal) into the fruit.
+          | So, as a citrus fruit, an apple makes for an excellent ionic conductor and can also be used as a  
+          a(href="https://www.youtube.com/watch?v=8YvYWLb0KGU" aria-label="A demonstration of how to turn an apple into a battery.") (apple) battery.
           br
           br
+          | So maybe my apple leather will be able to power an LED?
+          | I measured the current output from a cooked piece of apple and the apple leather with a multimeter -- the multimeter as metal probes that can act as electrodes.
+          | The cooked apple chunk measured 0.53 microamps and the apple leather measured X microamps.
       .row.mt-2
-        img.img-fluid(src="media/weekly6/collage-8.png" style="max-width: 100%; height: auto;" alt="Several images of a shoe being converted into a loom by rearranging the shoe laces into warp and weaving another shoe lace across the warp.")
+        img.img-fluid(src="media/weekly7/collage-6.png" style="max-width: 100%; height: auto;" alt=".")
+      .row.mt-4
+        p
+          | ...
       .row.mt-6
         p
           b Reflection.
