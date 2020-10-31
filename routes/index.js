@@ -60,4 +60,10 @@ router.get('/weekly7', function(req, res, next) {
   });
 });
 
+router.get('/weekly8', function(req, res, next) {
+  res.render('weekly8', {
+    title: "Materials for Textile Electronics"
+  });
+});
+
 module.exports = router;
