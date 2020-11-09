@@ -1,0 +1,112 @@
+//- weekly9.pug
+extends layout.pug
+block content
+  .row
+    .col-8.mt-5
+      .row
+        h2 Weekly 9: Connecting Rigid and Flexible Electronics
+      .row.mt-5
+        p
+          b Vision.  
+          | I want to be able to integrate rigid electronics into knitted structures.
+          | To do so, I must figure out how to create stable connections between the two that will not break as the structure is handled.
+          | I am wondering if I can integrate the rigid components using small knitted pockets.
+          | I am hoping that the pockets will create a tight wrapping around the electronics providing a stable connection between the knit and component without losing the stretch and flexibility of the knitted structure.
+          br
+          br
+          | To start, I am investigating ways to create knitted pockets.
+      .row.mt-4
+        p
+          b Research.
+          br  
+          | A quick Google search revealed that there are 3 general ways of creating a knitted pocket.
+          br
+          ol
+            li Knitting a seamless pocket -- knitting the pocket as two separate layers (e.g., 
+              a(href="https://www.youtube.com/watch?v=ZmuJZ484SNw") knitting pocket alongside main piece)
+            li Inserting a semi-seamless pocket -- creating an opening for attaching the pocket in the main knit (e.g., 
+              a(href="https://www.youtube.com/watch?v=S4SnLcBMClA") inserting and knitting kangaroo pocket,  
+              a(href="https://www.youtube.com/watch?v=RUKIh3EMDao") inserting kangaroo pocket and sewing sides)
+            li Applying a pocket -- attaching a pre-fabricated pocket to an existing, knitted swatch as an afterthought(e.g., 
+              a(href="https://www.youtube.com/watch?v=IGtfcrIFAro") knitting pocket onto swatch,  
+              a(href="https://www.youtube.com/watch?v=LaefHpFClL4") sewing pocket onto swatch)
+          br
+          | For experimentation, I think method 3 is most appropriate.
+          | I do not know what the final fidget knit will look like until it is finished.
+          | This makes it difficult to knit or insert the pockets along the way (methods 1 and 2).
+      .row.mt-4
+        p
+          b Exploration.  
+          | Pockets can be used to hide all sorts of electronics.
+          | In this exploration, I am focusing on integrating a coin cell battery.
+          | I want to create a knit pocket with a positive and negative terminal such that the battery can be integrated by placing it in the pocket. 
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/materials.jpg" style="max-width: 100%; height: auto;" alt=".")
+      .row.mt-4
+        p To start, I knitted a swatch to which I can sew a second layer to create the pocket.
+          | I incorporated 3x3 knit stitches of conductive thread (Karl Grimm Kupfer Blank) to create the negative terminal.
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/knitted-terminal.jpg" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-4
+        p One challenge in knitting with both conductive thread and regular yarn is that it is difficult to control how much of the conductive yarn will be visible (and accessible).
+          | Some of the conductive thread always surfaces but, in this case, it did not stick out past the regular yarn.
+          | I needed to press the battery into the yarn to establish a connection with the conductive thread.
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/knitted-terminal-test.gif" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-4
+        p This will not do.
+          | I removed the knit stitches from the swatch to try to weave a conductive patch across the surface of the knit.
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/woven-terminal.jpg" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-4
+        p Some of the conductive thread was now accessible but the connection wasn't stable and the patch looked like a mess.
+          br
+          br
+          | I figured the best approach would be sew a conductive patch to the knit ... a conductive flexible patch ... a conductive flexible and stretchable patch ...
+          | Why not knit a small swatch of conductive thread and attach it to the base knit?
+          | It will look intentional, like it is part of the overall knit structure.
+          | It can stretch in the same manner as the base knit (i.e., similar stretch along the same dimensions).
+          | And, the conductive thread will only be exposed on a single side rather than throughout the knit.
+          br
+          br
+          | So I knitted a tiny swatch of conductive thread on two tapestry needles.
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/knitting-thread.jpg" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/knitted-thread-swatch.jpg" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-4
+        p Next, I sewed the tiny knit to the base swatch where I planned to place the pocket.
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/base.jpg" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-4
+        p This time, laying the battery atop the terminal was sufficient for a stable connection.
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/base-test.gif" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-4
+        p To create the second layer, I knitted a swatch just a tad large than the coin cell battery.
+          | I added the positive terminal to this layer by bunching up conductive thread and sewing it to the knit -- I wanted to compare this method to the tiny conductive knit patch.
+          | Next, I sewed the second layer to the base layer such that the negative and positive terminals faced each other.
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/collage-1.png" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-4
+        p The pocket worked as intended. The coin cell battery was easy to insert and remove.
+          | Both terminals had a stable connection though the bunched up thread of the positive terminal prevented the battery from laying flat.
+          | The bunches of thread prevented the pocket from stretching at the center.
+          | I think the positive terminal is more likely to break or come undone with prolonged use.
+      .row.mt-2
+        img.img-fluid(src="media/weekly9/pocket-test.png" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-6
+        p
+          b Reflection.
+          | Knit pockets are great because they can make rigid things somewhat flexible.
+          | They can hold rigid electronics in place and still enable them move.
+          | When a knit is stretched, the pocket stretches around the electronic component, and as long as there is enough slack in the connections, they won't break.
+      .row.mt-7
+    .col-2.mt-7.ml-5
+      p 
+        .text-muted Posted on
+        | 11/08/2020
+      br
+      p
+        .text-muted Authored by
+        | Annika Muehlbradt

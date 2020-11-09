@@ -66,4 +66,10 @@ router.get('/weekly8', function(req, res, next) {
   });
 });
 
+router.get('/weekly9', function(req, res, next) {
+  res.render('weekly9', {
+    title: "Rigid and Flexible Electronics"
+  });
+});
+
 module.exports = router;
