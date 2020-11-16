@@ -72,4 +72,10 @@ router.get('/weekly9', function(req, res, next) {
   });
 });
 
+router.get('/weekly10', function(req, res, next) {
+  res.render('weekly10', {
+    title: "Routing"
+  });
+});
+
 module.exports = router;

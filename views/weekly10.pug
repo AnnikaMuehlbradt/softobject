@@ -1,0 +1,96 @@
+//- weekly10.pug
+extends layout.pug
+block content
+  .row
+    .col-8.mt-5
+      .row
+        h2 Weekly 10: Routing
+      .row.mt-5
+        p
+          b Vision.  
+          | There are several ways to route conductive traces in a knit structure.
+          | All of these have some tradeoffs.
+          | For the fidget knit, I think the traces should be (1) be at least somewhat stretchable, (2) hidden or form part of a visible pattern (but not exposed), and (3) attached to a finished knit structure.
+          | To start exploring the possibilities, I made a list of the techniques and tradeoffs.
+      .row.mt-4
+        p
+          b Techniques and Tradeoffs. 
+          br
+          table.table
+            thead
+              tr
+                th(scope="col") Technique
+                th(scope="col") Physical Properties
+                th(scope="col") Electrical Properties
+                th(scope="col") Asthetic
+            tbody
+              tr
+                th(scope="row") Knitting traces into knit structure
+                th stretchable; 
+                  i.fas.fa-arrow-up  material 
+                th exposed on 2 sides 
+                  i.fas.fa-arrow-up  resistance; 
+                th hidden 
+              tr
+                th(scope="row") Weaving traces into knit structure
+                th not stretchable (needs slack); 
+                  i.fas.fa-arrow-down  material 
+                th exposed on 2 sides 
+                  i.fas.fa-arrow-down  resistance; 
+                th hidden 
+              tr
+                th(scope="row") Couching traces to knit structure
+                th no stretchable (needs slack); 
+                  i.fas.fa-arrow-down  material 
+                th exposed on 1 side 
+                  i.fas.fa-arrow-down  resistance; 
+                th visible on 1 side 
+              tr
+                th(scope="row") Tube knitting traces and sewing to knit structure
+                th stretchable; 
+                  i.fas.fa-arrow-left  material 
+                th exposed on 1 side (able to insulate) 
+                  i.fas.fa-arrow-left  resistance; 
+                th visible on 1 side 
+        p.mt-4
+          | I like the idea of couching the traces to the knit structure because the traces can be applied after the knit is complete, require little conductive material, have little resistance, and are exposed on a single side but can be insulated with couching.
+          | A tubular knitted trace may have the same properties, but it depends on how it is constructed. The example by 
+          a(href="https://www.kobakant.at/DIY/?p=7966") Kobakant 
+          | requires a lot of conductive material, would be difficult to insulate with couching, and may not look clean when applied to a wearable.
+          | If thick yarn and conductive thread is combined, the tubular knit will create a solid i-cord which will look neater and (perhaps) more intentional.
+          | Or, the conductive thread can be placed inside an i-cord to insulate it though the conductive thread would need to be given slack to stretch.
+      .row.mt-4
+        p
+          b Couching.  
+          | For now, I want to explore how to couch conductive material to a knit.
+          | I am using stainless steel wire so that I can save the previous conductive thread for the actual fidget knit.
+          | Because I do not have all of the electronics for the fidget knit -- I am waiting on some piezoelectric film -- I am creating a simple circuit with a switch.
+          br
+          br
+          | Here is my circuit diagram:
+      .row.mt-2
+        img.img-fluid(src="media/weekly10/diagram.jpg" style="max-width: 100%; height: auto;" alt=".")
+      .row.mt-4
+        p The resistor limits the current flowing through the LED and prevents it from burning out.
+          | The wire has a resistance of ~0.5 ohms per 10 cm so I looped it back and forth a few times to get closer to 50 ohms.
+          | I couched the remaining traces as depicted in the diagram. 
+          br
+          br
+          | Here is the circuit in action:
+      .row.mt-2
+        img.img-fluid.center-block(src="https://s3.us-east-2.amazonaws.com/softobject/weekly10/switch-circuit.gif" style="max-width: 100% height: auto;" alt=".")
+      .row.mt-6
+        p
+          b Reflection.
+          | The couching itself is stretchable as it is sewn to individual knit stitches.
+          | If the conductive material is stretchable too then couching is a create way to apply it to a knit structure.
+          | In the project, I will probably use a tubular knit as the conductive trace.
+      .row.mt-7
+    .col-2.mt-7.ml-5
+      p 
+        .text-muted Posted on
+        | 11/16/2020
+      br
+      p
+        .text-muted Authored by
+        | Annika Muehlbradt
